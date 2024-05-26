@@ -5,7 +5,7 @@ describe('Electrons Around The Corners', function(){
     });
 
 	it('Is the result 4 of the array [2, 2, 3, 3]?', function(){
-
+        const array = [2, 2, 3, 3];
         expect(calculateSum(array)).toEqual(4);
     });
 });
