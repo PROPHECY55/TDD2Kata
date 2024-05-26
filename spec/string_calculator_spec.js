@@ -13,4 +13,9 @@ describe('Electrons Around The Corners', function(){
         const array = [6, 6, 4, 4, 1, 3];
         expect(calculateSum(array)).toEqual(2);
     });
+
+	it('If the array is [3, 5, 3, 5, 4, 2] the result should be 12', function() {
+
+        expect(calculateSum(array)).toEqual(12);
+    });
 });
